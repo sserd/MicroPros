@@ -1,0 +1,336 @@
+
+ *{box-sizing: border-box}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+} 
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+header{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../1.jpg);
+  background-size: cover;
+  height: 600px;
+    color: white;
+text-align: center;
+}
+
+
+.cur{
+   font-style: italic;
+}
+.subu{
+  text-align: center;
+  padding: 30px;
+  font-family: fantasy;
+}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  text-decoration: none;
+      color: #fff;
+  display: inline-block;
+  padding: 14px 20px;
+border: 1px solid #fff;
+transition: 0.6s ease;
+}
+
+.tablink:hover {
+ 
+  background-color: #fff;
+  color: black;
+}
+
+.tablink1 {
+  background-color: #0099ff;
+  color: #fff;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 17px;
+  width: 15%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 4px 10px;
+border: 1px solid #fff;
+transition: 0.6s ease;
+}
+.right{
+  text-align: right;
+}
+.tablink1:hover {
+ 
+  background-color: #fff;
+  color: black;
+}
+
+.whitetext{
+  color: white;
+}
+.tablink2 {
+  
+  background-color: #0099ff;
+  color: #fff;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 17px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+border: 1px solid #fff;
+transition: 0.6s ease;
+}
+
+.tablink2:hover {
+ 
+  background-color: black;
+  color: white;
+}
+
+
+.tablink3 {
+  
+  background-color: #660000;
+  padding-left: 30px;
+  padding-right: 30px;
+ 
+  color: #fff;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+border: 1px solid #fff;
+transition: 0.6s ease;
+}
+
+.tablink3:hover {
+ 
+  background-color: black;
+  color: white;
+}
+
+.tablink4 {
+  
+  background-color: red;
+  padding-left: 100px;
+  padding-right: 3=100px;
+ 
+  color: #fff;
+  float: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 17px;
+  width: 68%;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+border: 1px solid #fff;
+transition: 0.6s ease;
+}
+
+.tablink4:hover {
+ 
+  background-color: black;
+  color: white;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+.insight{
+
+  margin: 0;
+padding: 60px;
+
+  margin: 0;
+padding: 90px;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 200px;
+    color: white;
+text-align: center;
+}
+
+.imgheight{
+  padding-top: 160px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  height: 800px;
+}
+.cont {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+padding: 20px;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 600px;
+    color: white;
+text-align: justify;
+}
+
+.cont1 {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin: 0;
+padding: 20px;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 800px;
+    color: white;
+text-align: justify;
+}
+
+.video{
+margin: 0;
+padding: 30px;
+
+  margin: 0;
+padding: 10px;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 600px;
+    color: white;
+text-align: center;
+}
+
+.nav{
+margin: 0;
+padding: 30px;
+line-height: 200%;
+  margin: 0;
+ white-space: 5;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 400px;
+    color: white;
+text-align: center;
+}
+.yellowtext{
+  color: yellow;
+}
+.footer{
+  margin: 0;
+padding: 30px;
+  margin: 0;
+ white-space: 5;
+  background-image: url(../5.gif);
+  background-size: cover;
+  height: 40px;
+    color: white;
+text-align: left;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.blacktext{
+  background-color: black;
+  height: 100px;
+    color: white;
+text-align: center;
+padding: 5px;
+}
+.about1{
+  padding: 40px;
+  background-image: url(../39.jpg);
+   background-size: cover;
+  height: 100px;
+    color: white;
+text-align: center;
+
+}
+
+.about2{
+  padding: 40px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../37.jpg);
+   background-size: cover;
+  height: 300px;
+    color: white;
+text-align: center;
+
+}
+
+#Home {background-image: url(../5.gif);}
+#About {background-image: url(../5.gif);}
+#Project {background-image: url(../5.gif);}
+#Gallery {background-image: url(../5.gif);}
